@@ -1,43 +1,20 @@
-.profile {
+.statistics {
   width: 300px;
-  margin: 40px auto;
+  margin: 0 auto 40px;
   border: 2px solid darkgray;
   border-radius: 10px;
 }
 
-.description {
+.title {
+  display: block;
   width: 100%;
+  text-align: center;
   padding: 40px 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
   background-color: white;
-  border: none;
   border-radius: 10px 10px 0 0;
 }
 
-.avatar {
-  width: 150px;
-  height: 150px;
-  border: 2px solid darkgray;
-  border-radius: 25%;
-}
-
-.name {
-  text-transform: capitalize;
-  font-weight: bold;
-  font-size: 24px;
-}
-
-.tag,
-.location {
-  color: gray;
-  font-size: 16px;
-}
-
-.stats {
+.statList {
   display: flex;
   width: 100%;
   border-top: 2px solid darkgray;
@@ -45,18 +22,18 @@
   background-color: lightgray;
 }
 
-.stats > li {
+.item {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: calc(100% / 3);
+  width: calc(100% / 5);
   padding: 20px 0;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   border-right: 2px solid darkgray;
 }
 
-.stats > li:last-child {
+.item:last-child {
   border-right: none;
 }
 
@@ -64,7 +41,7 @@
   color: gray;
 }
 
-.quantity {
+.percentage {
   color: black;
   font-weight: bold;
 }
