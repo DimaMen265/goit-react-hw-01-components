@@ -6,6 +6,7 @@
 }
 
 .title {
+  font-weight: 500;
   display: block;
   width: 100%;
   text-align: center;
@@ -19,7 +20,7 @@
   width: 100%;
   border-top: 2px solid darkgray;
   border-radius: 0 0 10px 10px;
-  background-color: lightgray;
+  color: white;
 }
 
 .item {
@@ -30,18 +31,20 @@
   padding: 20px 0;
   align-items: center;
   justify-content: center;
-  border-right: 2px solid darkgray;
+}
+
+.item:first-child {
+  border-radius: 0 0 0 10px;
 }
 
 .item:last-child {
-  border-right: none;
+  border-radius: 0 0 10px 0;
 }
 
 .label {
-  color: gray;
+  font-size: 16px;
 }
 
 .percentage {
-  color: black;
-  font-weight: bold;
+  font-size: 20px;
 }
