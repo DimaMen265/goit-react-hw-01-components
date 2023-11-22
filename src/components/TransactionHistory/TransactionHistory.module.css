@@ -1,0 +1,45 @@
+.tranHis {
+  padding: 10px;
+  margin: 0 auto;
+  width: 280px;
+  background-color: white;
+  border: 2px solid darkgray;
+  border-radius: 10px;
+}
+
+.transactionHistory {
+  width: 280px;
+  text-align: center;
+  border: none;
+  box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.5);
+  border-collapse: collapse;
+  color: gray;
+}
+
+.transactionHistory > thead {
+  background-color: #00bcd5;
+  color: white;
+}
+
+.transactionHistory thead tr th {
+  font-weight: 500;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  padding: 10px 0;
+}
+
+.transactionHistory tbody tr td {
+  font-weight: 400;
+  font-size: 12px;
+  border-right: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+  padding: 10px 0;
+}
+
+.transactionHistory tbody tr:nth-child(odd) {
+  background-color: white;
+}
+
+.transactionHistory tbody tr:nth-child(even) {
+  background-color: #ecf1f4;
+}
